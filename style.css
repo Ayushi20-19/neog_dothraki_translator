@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 1rem 0;
+}
+section {
+  min-height: 80vh;
+  max-height: 100vh;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 80%;
+  background: cover;
+  background-repeat: no-repeat;
+}
+.input-Text {
+  height: 7rem;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+.output-Text {
+  height: 7rem;
+  width: 50%;
+  border: 0.1rem solid black;
+  margin: auto;
+  margin-top: 1rem;
+}
+.btn-translate {
+  padding: 0.2rem 1rem;
+  background-color: cornflowerblue;
+}
+footer {
+  background-color: aquamarine;
+  width: 100%;
+  padding: 3rem;
+}
