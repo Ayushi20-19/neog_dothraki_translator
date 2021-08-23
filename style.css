@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 nav {
-  background-color: aquamarine;
+  background-image: linear-gradient(
+    to left,
+    rgb(179, 250, 183),
+    rgb(245, 245, 245)
+  );
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 section {
   min-height: 80vh;
@@ -29,6 +33,7 @@ section {
   margin: auto;
   margin-bottom: 0.5rem;
   margin-top: 1rem;
+  padding: 1rem;
 }
 .output-Text {
   height: 7rem;
@@ -39,10 +44,18 @@ section {
 }
 .btn-translate {
   padding: 0.2rem 1rem;
-  background-color: cornflowerblue;
+  background-color: rgb(77, 207, 131);
+}
+.btn-translate:hover {
+  padding: 0.2rem 1rem;
+  background-color: rgb(170, 255, 206);
 }
 footer {
-  background-color: aquamarine;
+  background-image: linear-gradient(
+    to left,
+    rgb(179, 250, 183),
+    rgb(221, 238, 231)
+  );
   width: 100%;
   padding: 3rem;
 }
